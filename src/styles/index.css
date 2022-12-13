@@ -1,0 +1,37 @@
+:root {
+  --color-dark-grey: #10100e;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-yellow: #ffff00;
+  --color-blue: #6a83fb;
+  --color-violet: #ae72c2;
+  --spacing-medium: 20px;
+  --spacing-large: 30px;
+
+  --border-radius-small: 3px;
+
+  --font-family-main: sans-serif;
+  --font-size-header: 26px;
+  --font-bold: 600;
+
+  --text-shadow-yellow: 0 0 2px var(--color-white), 0 0 40px var(--color-blue);
+
+  --theme-default-header: #cccc46;
+
+  --transition: 0.4s;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-dark-grey);
+  font-family: sans-serif;
+}
+
+.header__text {
+  line-height: 1.7;
+  font-size: var(--font-size-header);
+  text-shadow: 0 0 2px var(--color-black);
+  color: var(--theme-default-header);
+  transition: color var(--transition);
+}
