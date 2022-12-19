@@ -1,16 +1,16 @@
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 import { useState, useEffect } from "react";
 
 import { withErrorApi } from "@hoc-helpers/withErrorApi";
 import PeopleList from "@components/PeoplePage/PeopleList/PeopleList";
 import { getApiResource } from "@utils/network";
 import { API_PEOPLE } from "@constants/api";
+import { useQueryParams } from "@hooks/useQueryParams";
 import { getPeopleId, getPeopleImage } from "@services/getPeopleData";
-
-
 
 const PeoplePage = ({ setErrorApi }) => {
   const [people, setPeople] = useState(null);
+  const query = useQueryParams();
 
   const getResource = async (url) => {
     const res = await getApiResource(url);
@@ -45,6 +45,6 @@ const PeoplePage = ({ setErrorApi }) => {
 
 PeoplePage.propTypes = {
   setErrorApi: PropTypes.func,
-  }
+};
 
 export default withErrorApi(PeoplePage);
