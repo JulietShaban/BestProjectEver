@@ -12,7 +12,7 @@
     background-color: var(--color-white);
     cursor: pointer;
 }
-.list__item div{
+.field{
     text-decoration: none;
     color: var(--color-black);
     text-align: center;

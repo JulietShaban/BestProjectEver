@@ -1,0 +1,51 @@
+:root {
+  --font-size-small: 14px;
+  --font-family-main: sans-serif;
+  --font-bold: 600;
+  --transition: 0.4s;
+
+  --color-white: #fff;
+  --color-black: #000;
+  --color-grey: #9c9c9c;
+}
+
+.UiButton_buttons__rE\+CU {
+  padding: 10px;
+  min-width: 100px;
+  border-radius: 3px;
+  font-size: var(--font-size-small);
+  font-family: var(--font-family-main);
+  font-weight: var(--font-bold);
+  background: none;
+  outline: none;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.UiButton_buttons__rE\+CU:disabled {
+color: var(--color-grey);
+border-color: var(--color-grey);
+cursor: auto;
+}
+.UiButton_buttons__rE\+CU:disabled:hover{
+    background-color: transparent;
+    color: var(--color-grey);
+}
+.UiButton_dark__eNmL5 {
+  border: 1px solid var(--color-white);
+  color: var(--color-white);
+}
+.UiButton_dark__eNmL5:hover {
+  color: var(--color-black);
+  background-color: var(--color-white);
+}
+.UiButton_light__pJjWy {
+  border: 1px solid var(--color-black);
+  color: var(--color-black);
+}
+.UiButton_light__pJjWy:hover {
+  color: var(--color-white);
+  background-color: var(--color-black);
+}
+
+
+/*# sourceMappingURL=main.9fb15290.css.map*/
