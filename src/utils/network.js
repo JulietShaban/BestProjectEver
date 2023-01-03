@@ -6,10 +6,10 @@ import { HTTP, HTTPS } from "@constants/api";
  * @returns {String} - changed url
  */
 
-export const changeHTTP = url => {
- const result = url ? url.replace(HTTP, HTTPS) : url;
- return result
-}
+export const changeHTTP = (url) => {
+  const result = url ? url.replace(HTTP, HTTPS) : url;
+  return result;
+};
 
 /**
  * Sends a request for Fetch
@@ -31,3 +31,10 @@ export const getApiResource = async (url) => {
   }
 };
 
+export const makeConcurrentRequest = async (url) => {
+  const res = await Promise.all(url.map(res => {
+      return fetch(res).then(res => res.json())
+  }));
+
+  return res;
+}
