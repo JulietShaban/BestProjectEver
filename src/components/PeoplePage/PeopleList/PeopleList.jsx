@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 import styles from "./PeopleList.module.css";
 
 const PeopleList = ({ people }) => {
@@ -19,7 +19,7 @@ const PeopleList = ({ people }) => {
 };
 
 PeopleList.propTypes = {
-people: PropTypes.array,
-}
+  people: PropTypes.array,
+};
 
 export default PeopleList;
