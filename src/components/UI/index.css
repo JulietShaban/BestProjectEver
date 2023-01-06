@@ -1,10 +1,26 @@
 :root {
   --font-size-small: 14px;
+  --font-size-medium: 16px;
+
+  --border: 3px;
+
+  --clear-width: 55px;
+
   --font-family-main: sans-serif;
   --font-bold: 600;
   --transition: 0.4s;
 
   --color-white: #fff;
   --color-black: #000;
-  --color-grey: #9c9c9c;
+  --color-gray: #727272;
+  --color-lightgray: #dbd8d8;
+  --color-violet: rgba(196, 76, 240, 0.605);
+}
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
 }

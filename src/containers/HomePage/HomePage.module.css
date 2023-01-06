@@ -1,0 +1,6 @@
+.header__text{
+    color: var(--theme-default-header);
+    font-family: var(--font-family-main);
+    font-weight: 500;
+    
+}
