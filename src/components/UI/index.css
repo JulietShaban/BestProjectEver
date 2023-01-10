@@ -15,6 +15,7 @@
   --color-gray: #727272;
   --color-lightgray: #dbd8d8;
   --color-violet: rgba(196, 76, 240, 0.605);
+  --color-violet-transparent: rgba(196, 76, 240, 0.322);
 }
 
 *, *:after, *:before {
@@ -23,4 +24,26 @@
 
 img {
   display: block;
+}
+
+/* ---Styling Scrollbar--- */
+
+*{
+  scrollbar-color: var(--color-violet-transparent), rgb(0, 0, 0, 0.7);
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar{
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: var(--color-violet-transparent);
+  border-radius: 2px;
+}
+::-webkit-scrollbar-track{
+  background-color: rgb(0, 0, 0, 0.7);
+}
+::-webkit-scrollbar-corner{
+  background-color: rgb(0, 0, 0, 0.7);
 }

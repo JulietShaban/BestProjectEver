@@ -3,37 +3,41 @@ import HomePage from "@containers/HomePage/HomePage";
 import NotFoundPage from "@containers/NotFoundPage/NotFoundPage";
 import PersonPage from "@containers/PersonPage";
 import FavoritesPage from "@containers/FavoritesPage/FavoritesPage";
-import SearchPage from "../containers/SearchPage";
-
+import SearchPage from "@containers/SearchPage";
+import ErrorMessage from "@components/PeoplePage/PeopleList/ErrorMessage";
 
 const routesConfig = [
   {
     path: "/",
-    element: <HomePage/>,
+    element: <HomePage />,
   },
   {
     path: "/people",
-    element: <PeoplePage/>,
+    element: <PeoplePage />,
   },
   {
     path: "/people/:id",
-    element: <PersonPage/>,
+    element: <PersonPage />,
   },
   {
     path: "*",
-    element: <NotFoundPage/>,
+    element: <NotFoundPage />,
   },
   {
     path: "/not-found",
-    element: <NotFoundPage/>,
+    element: <NotFoundPage />,
+  },
+  {
+    path: "/fail",
+    element: <ErrorMessage />,
   },
   {
     path: "/favorites",
-    element: <FavoritesPage/>,
+    element: <FavoritesPage />,
   },
   {
     path: "/search",
-    element: <SearchPage/>,
+    element: <SearchPage />,
   },
 ];
 
