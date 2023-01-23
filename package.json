@@ -1,6 +1,7 @@
 {
-  "name": "task1",
+  "name": "react-star-wars",
   "version": "0.1.0",
+  "homepage": "https://julietshaban.github.io/BestProjectEver/",
   "private": true,
   "dependencies": {
     "classnames": "^2.3.2",
