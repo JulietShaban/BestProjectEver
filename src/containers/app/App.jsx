@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
+import { REPO_NAME } from "@constants/repo";
 import Header from "@components/Header/Header";
 import routesConfig from "@routes/routesConfig";
 import styles from "./App.module.css";
@@ -8,7 +9,7 @@ import styles from "./App.module.css";
 const App = () => {
   console.log('gittest')
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={`/${REPO_NAME}/`}>
       <div className={styles.wrapper}>
         <Header />
         <Routes>

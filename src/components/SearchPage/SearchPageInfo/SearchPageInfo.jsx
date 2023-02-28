@@ -18,7 +18,7 @@ const SearchPageInfo = ({ people }) => (
                     )}
                 </ul>
             )
-            : <h2 className={styles.person__comment}>No results</h2>
+            : <h2 className={styles.person__comment}>Sorry, no results</h2>
         }
     </>
 )

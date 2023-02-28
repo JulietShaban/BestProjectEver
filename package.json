@@ -1,6 +1,7 @@
 {
-  "name": "task1",
+  "name": "react-star-wars",
   "version": "0.1.0",
+  "homepage": "https://julietshaban.github.io/BestProjectEver/",
   "private": true,
   "dependencies": {
     "classnames": "^2.3.2",
@@ -11,7 +12,7 @@
     "react-redux": "^8.0.5",
     "react-router": "^6.4.5",
     "react-router-dom": "^6.4.5",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "redux": "^4.2.0",
     "redux-devtools-extension": "^2.13.9",
     "redux-thunk": "^2.4.2",
@@ -19,10 +20,12 @@
   },
   "scripts": {
     "start": "react-app-rewired start",
+    "deploy": "npm run build && npm run build-gh-pages",
     "build": "react-app-rewired build",
     "eject": "react-app-rewired eject",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "build-gh-pages": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -64,6 +67,7 @@
     "@storybook/react": "^6.5.15",
     "@storybook/testing-library": "^0.0.13",
     "babel-plugin-named-exports-order": "^0.0.2",
+    "gh-pages": "^5.0.0",
     "react-app-rewire-alias": "^1.1.7",
     "react-app-rewired": "^2.2.1",
     "webpack": "^5.75.0"
