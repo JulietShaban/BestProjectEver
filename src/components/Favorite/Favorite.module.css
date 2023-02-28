@@ -30,3 +30,10 @@
     background-color: var(--color-white);
     box-shadow: var(--box-shadow-white);
 }
+@media screen and (max-width: 415px) {
+.container{
+    width: 30px;
+    height: 30px;
+}
+
+}

@@ -39,21 +39,14 @@ const Header = () => {
     <div className={styles.container}>
       <img className={styles.logo} src={icon} alt="Star Wars icon" />
       <ul className={styles.list__container}>
-        <li>
+        <li className={styles.list__item}>
           <NavLink to="/">Home</NavLink>
         </li>
-        <li>
+        <li className={styles.list__item}>
           <NavLink to="/people/?page=1">People</NavLink>
         </li>
-
-        <li>
+        <li className={styles.list__item}>
           <NavLink to="/search">Search</NavLink>
-        </li>
-        <li>
-          <NavLink to="/not-found">Not Found</NavLink>
-        </li>
-        <li>
-          <NavLink to="/fail">Fail</NavLink>
         </li>
       </ul>
 

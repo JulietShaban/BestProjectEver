@@ -37,3 +37,14 @@ list-style-type: none;
     object-fit: cover;
     object-position: center center;
 }
+@media screen and (max-width: 415px) {
+    .logo{
+        width: 35px;
+        height: 35px;
+        margin-right: 0;
+    }
+    .list__item{
+    max-width: 85px;
+
+    }
+}

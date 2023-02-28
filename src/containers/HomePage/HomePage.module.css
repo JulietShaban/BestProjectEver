@@ -1,6 +1,12 @@
-.header__text{
-    color: var(--theme-default-header);
-    font-family: var(--font-family-main);
-    font-weight: 500;
-    
+.header__text {
+  color: var(--theme-default-header);
+  font-family: var(--font-family-main);
+  font-weight: 500;
+}
+@media screen and (max-width: 415px) {
+  .header__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

@@ -7,9 +7,11 @@ import routesConfig from "@routes/routesConfig";
 import styles from "./App.module.css";
 
 const App = () => {
-  console.log('gittest')
+  
   return (
-    <BrowserRouter basename={`/${REPO_NAME}/`}>
+    <BrowserRouter
+    //  basename={`/${REPO_NAME}/`}
+     >
       <div className={styles.wrapper}>
         <Header />
         <Routes>

@@ -10,3 +10,8 @@ padding: var(--spacing-large) 0;
   }
 }
 
+@media screen and (max-width: 415px) {
+  .wrapper{
+    padding: 30px var(--spacing-small);
+  }
+}
