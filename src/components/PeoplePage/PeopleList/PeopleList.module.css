@@ -24,3 +24,10 @@ object-fit: cover;
 object-position: top center;
 border-radius: var(--border-radius-small) var(--border-radius-small) 0 0;
 }
+
+@media screen and (max-width: 415px){
+ 
+.list__item{
+  width: 35vw;
+ }
+}

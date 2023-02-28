@@ -18,3 +18,12 @@
     border-radius: var(--border-radius-medium);
     box-shadow: var(--box-shadow-white);
 }
+@media screen and (max-width:415px){
+    .text{
+        width: 100%;
+        font-size: large;
+    }
+    .video{
+        width: 100%;
+    }
+}

@@ -81,3 +81,9 @@ COLOR THEME
     margin: var(--spacing-small);
   }
 }
+@media  screen and ( max-width: 415px ) {
+  .item{
+    max-height: 200px;
+    width: 100%;
+  }
+}
