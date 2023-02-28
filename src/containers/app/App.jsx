@@ -6,6 +6,7 @@ import routesConfig from "@routes/routesConfig";
 import styles from "./App.module.css";
 
 const App = () => {
+  console.log('gittest')
   return (
     <BrowserRouter>
       <div className={styles.wrapper}>
