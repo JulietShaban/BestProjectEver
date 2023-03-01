@@ -10,7 +10,7 @@ const App = () => {
   
   return (
     <BrowserRouter
-    //  basename={`/${REPO_NAME}/`}
+     basename={`/${REPO_NAME}/`}
      >
       <div className={styles.wrapper}>
         <Header />
