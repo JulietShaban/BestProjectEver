@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/BestProjectEver/static/css/main.61e1dc8b.css",
+    "main.js": "/BestProjectEver/static/js/main.d17dfd10.js",
+    "static/css/895.98e7c5f8.chunk.css": "/BestProjectEver/static/css/895.98e7c5f8.chunk.css",
+    "static/js/895.a61da80b.chunk.js": "/BestProjectEver/static/js/895.a61da80b.chunk.js",
+    "static/media/lightside.jpg": "/BestProjectEver/static/media/lightside.8af401acdaffbd715ea8.jpg",
+    "static/media/bg.jpg": "/BestProjectEver/static/media/bg.3484da72d392f5b33af1.jpg",
+    "static/media/darkside.jpg": "/BestProjectEver/static/media/darkside.1c32d2e4779ffc9d6e94.jpg",
+    "static/media/falcon.jpg": "/BestProjectEver/static/media/falcon.c1d0a8d1869b3fbdb9ab.jpg",
+    "static/media/light-side.jpg": "/BestProjectEver/static/media/light-side.c893eb872d49280f78ef.jpg",
+    "static/media/han-solo.mp4": "/BestProjectEver/static/media/han-solo.db435084c403f6b37d4d.mp4",
+    "static/media/dark-side.jpg": "/BestProjectEver/static/media/dark-side.e0f8cab78e4bdd7db45d.jpg",
+    "static/media/not-found.png": "/BestProjectEver/static/media/not-found.1062f5e41ef989b5973a.png",
+    "static/media/lightsaber.svg": "/BestProjectEver/static/media/lightsaber.eb7d4cd665426117002814db79fceef4.svg",
+    "static/media/space-station.svg": "/BestProjectEver/static/media/space-station.7a027c6ec10ba7b5d8c880df5f4e65ea.svg",
+    "static/media/droid.svg": "/BestProjectEver/static/media/droid.e59cd9ffbca010a59c9af48a5bbbcafb.svg",
+    "static/media/favorite-fill.svg": "/BestProjectEver/static/media/favorite-fill.22d132c5b0acba9a74aef32cc149eeb1.svg",
+    "static/media/favorite.svg": "/BestProjectEver/static/media/favorite.b44185b11e4185f24d5c7266c45fd7ec.svg",
+    "static/media/bookmark.svg": "/BestProjectEver/static/media/bookmark.99f7fd3de63057cd17b0495a2ef8bdd4.svg",
+    "static/media/back.svg": "/BestProjectEver/static/media/back.d2aea9fb1ca93095293d6224d1a93604.svg",
+    "static/media/loader-black.svg": "/BestProjectEver/static/media/loader-black.50895c7f55a312e50c38b68095bd3360.svg",
+    "static/media/loader-blue.svg": "/BestProjectEver/static/media/loader-blue.248b86fa54626e0336c2190ad5c6a1ac.svg",
+    "static/media/loader-white.svg": "/BestProjectEver/static/media/loader-white.40d84ec7e2d97f2a0f3ff04a834be43e.svg",
+    "index.html": "/BestProjectEver/index.html",
+    "static/media/cancel.svg": "/BestProjectEver/static/media/cancel.578faa722defa7ad897961a374ffea78.svg",
+    "main.61e1dc8b.css.map": "/BestProjectEver/static/css/main.61e1dc8b.css.map",
+    "main.d17dfd10.js.map": "/BestProjectEver/static/js/main.d17dfd10.js.map",
+    "895.98e7c5f8.chunk.css.map": "/BestProjectEver/static/css/895.98e7c5f8.chunk.css.map",
+    "895.a61da80b.chunk.js.map": "/BestProjectEver/static/js/895.a61da80b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61e1dc8b.css",
+    "static/js/main.d17dfd10.js"
+  ]
+}
